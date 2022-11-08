@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+/* navigační menu */
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 250px;
+}
+.navbar{
+  flex: 1;
+  text-align: right;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.navbar ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #900C3F;
+  display: block;
+  margin: auto;
+  transition: 0,5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+nav .fa{
+  display: none;
+  }
+
+
+
+.footer-info{
+  margin-top: 150px;
+  padding: 70px 5%;
+  background: #24262b;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  }
+.footer-info div{
+  width: 25%;
+  flex-direction: column;
+  margin-right: 4rem;
+  margin: auto;
+  }
+/* .col-1 {
+  flex-grow: 2;
+  }
+.col-2 {
+  flex-grow: 2;
+  } */
+.footer-info div h3{
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  }
+
+footer{
+  display: flex;
+  background: #24262b;
+  color: white;
+}
+footer p{
+  font-weight: 200;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  margin: auto;
+}
+
+/* .search-box{
+  float: right;
+  width: 100%;
+  max-width: 100vh;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  }
+.search-box input{
+  flex-grow: 1;
+  padding: 10px;
+  outline: none;
+  border: 1;
+  border-style: solid;
+  border-color: #900C3F;
+  border-radius: 5px 0 0 5px;
+  background: #e5e5e5;
+  transition: 0.25s;
+  }
+.search-box input:focus{
+  background: white;
+  }
+.search-box button{
+  width: 40px;
+  background: #900C3F;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 0 5px 5px 0;
+
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  }
+.search-box button:active{
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.25);
+  } */
+
+
+/* rozlišení pro telefony */
+@media(max-width: 700px) {
+  .navbar ul li{
+    display: block;
+  }
+  .navbar ul li a{
+    color: white;
+  }
+  .navbar{
+    position: absolute;
+    background: #900C3F;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: ls;
+  }
+  .navbar ul{
+    padding: 30px;
+  }
+  nav .fa{
+    display: block;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    }
+  .ico-close {
+    color: white;
+    }
+
+  .footer-info div{
+    width: 100%;
+    margin-bottom: 40px;
+    }
+    footer p{
+      font-size: 12px;
+      padding: 5%;
+    }
+}
