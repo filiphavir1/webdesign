@@ -17,21 +17,24 @@
 
 <body>
   <header>
-    <!-- <div class="search-box">
-      <form>
-        <input type="search-txt" placeholder="Hledaný výraz">
-        <button type="search-btn">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-      </form>
-    </div> -->
     <nav>
-      <a href="index.html"><img src="logo-obce.jpeg" alt="LOGO"></a>
+      <a href="index.html"><img src="logo-obce.jpeg" alt="LOGO"></a>    <!-- logo -->
       <section class="navbar" id="navbar">
-        <div class="ico-close">
-          <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i> <!-- křížek -->
+      <div class="ico-menu">                                            <!-- ikona burger menu -->
+        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>  
+      </div>
+      <div class="search-box">                                          <!-- vyhlledávací pole -->
+          <form>
+            <input type="text" placeholder="Hledaný výraz">
+            <button class="search-btn">
+              <i class="fa-solid fa-magnifying-glass search-ico"></i>
+            </button>
+          </form>
         </div>
-        <ul>
+        <ul id="menu">
+        <div class="ico-close">                                         <!-- ikona křížek -->
+          <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i> 
+        </div>
           <li><a href="">Obec</a></li>
           <li><a href="">Úřad</a></li>
           <li><a href="">Život v obci</a></li>
@@ -39,9 +42,6 @@
           <li><a href="">Kontakty</a></li>
         </ul>
       </section>
-      <div class="ico-menu">
-        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>  <!-- burger menu -->
-      </div>
     </nav>
   </header>
 
@@ -80,19 +80,15 @@
       <p>Zpracováno v rámci studentského projektu předmětu Web design.</p>
     </footer>
 
-    <!-- <div class="footer-txt">
-      <p>Zpracováno v rámci studentského projektu předmětu Web design.</p>
-    </div> -->
-
 
 <!-- JavaScript na zobrazení/skrytí menu -->
   <script>
-    var navbar = document.getElementById("navbar");
+    var navbar = document.getElementById("menu");
     function showMenu(){
-      navbar.style.right = "0";
+      navbar.style.left = "0";
     }
     function hideMenu(){
-      navbar.style.right = "-200px";
+      navbar.style.left = "-200px";
     }
   </script>
 </body>
