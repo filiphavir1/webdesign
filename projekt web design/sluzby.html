@@ -17,31 +17,35 @@
 
 <body>
   <header>
-    <!-- <div class="search-box">
-      <form>
-        <input type="search-txt" placeholder="Hledaný výraz">
-        <button type="search-btn">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
-      </form>
-    </div> -->
+
     <nav>
       <a href="index.html"><img src="logo-obce.jpeg" alt="LOGO"></a>
+
       <section class="navbar" id="navbar">
-        <div class="ico-close">
-          <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i> <!-- křížek -->
+        <div class="ico-menu">
+          <i class="fa fa-solid fa-bars" onclick="showMenu()"></i> <!-- burger menu  -->
         </div>
-        <ul>
-          <li><a href="">Obec</a></li>
-          <li><a href="">Úřad</a></li>
-          <li><a href="">Život v obci</a></li>
-          <li><a href="">Služby</a></li>
-          <li><a href="">Kontakty</a></li>
+
+        <div class="search-box">
+          <form>
+            <input type="text" placeholder="Hledaný výraz">
+            <button class="search-btn">
+              <i class="fa-solid fa-magnifying-glass search-ico"></i>
+            </button>
+          </form>
+        </div>
+
+        <ul id="menu">
+          <div class="ico-close">
+            <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+          </div>
+          <li><a href="index.html">Obec</a></li>
+          <li><a href="urad.html">Úřad</a></li>
+          <li><a href="zivot.html">Život v obci</a></li>
+          <li><a href="sluzby.html">Služby</a></li>
+          <li><a href="kontakty.html">Kontakty</a></li>
         </ul>
       </section>
-      <div class="ico-menu">
-        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>  <!-- burger menu -->
-      </div>
     </nav>
   </header>
 
@@ -87,13 +91,15 @@
 
 <!-- JavaScript na zobrazení/skrytí menu -->
   <script>
-    var navbar = document.getElementById("navbar");
+    var navbar = document.getElementById("menu");
     function showMenu(){
-      navbar.style.right = "0";
+      navbar.style.left = "0";
     }
     function hideMenu(){
-      navbar.style.right = "-200px";
+      navbar.style.left = "-200px";
     }
+
+
   </script>
 </body>
 </html>
