@@ -42,7 +42,7 @@
           <li><a href="index.html">Obec</a></li>
           <li><a href="urad.html">Úřad</a></li>
           <li><a href="zivot.html">Život v obci</a></li>
-          <li><a href="sluzby.html">Služby</a></li>
+          <li><a href="kdo_jsme.html">Kdo jsme</a></li>
           <li><a href="kontakty.html">Kontakty</a></li>
         </ul>
       </section>
@@ -50,8 +50,48 @@
   </header>
 
   <main>
-    <h1>Vítejte na našem webu!</h1>
-    <p>WIP</p>
+    <h1>Kontakty</h1>
+      <div class="fcf-body">
+      <h3>Fakturační údaje</h3>
+      <p>Adresa: <br>Náves 10<br>
+        252 67 Avalon<br>
+      BÚ: 2673111103/5500<br>
+      IČ: 2556787654<br>
+      DIČ: 1234323232</p>
+      
+      <div id="fcf-form">
+      <h3 class="fcf-h3">Kontaktuje nás</h3>
+  
+      <form id="fcf-form-id" class="fcf-form-class">
+          
+          <div class="fcf-form-group">
+              <label for="Name" class="fcf-label">Vaše jméno</label>
+              <div class="fcf-input-group">
+                  <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+              </div>
+          </div>
+  
+          <div class="fcf-form-group">
+              <label for="Email" class="fcf-label">Vaše emailová adresa</label>
+              <div class="fcf-input-group">
+                  <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+              </div>
+          </div>
+  
+          <div class="fcf-form-group">
+              <label for="Message" class="fcf-label">Zpráva kterou nám chcete napsat</label>
+              <div class="fcf-input-group">
+                  <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+              </div>
+          </div>
+  
+          <div class="fcf-form-group">
+              <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Odeslat zprávu</button>
+          </div>
+      </form>
+      </div>
+        
+      </div>
   </main>
 
     <div class="footer-info">

@@ -1,6 +1,17 @@
-kontakty a detaily (2) - dany
-aktuality a detaily (2) - filip
-urad a ke stazeni par formularu, uredni deska, inspirace v dobrejovicich - filip
-sluzby - dany
-homepage - dany
+TODO:
+kontakty - 1 stranka - filip  HOTOVO 100%
+aktuality a detaily - 3 a vice stranek - filip HOTOVO 80%
+o lidech(pracovnicich) - 1 stranka - filip 95%
+detail o pracovnicich - x stran - filip 0%
+
+urad a ke stazeni par formularu, uredni deska, inspirace v dobrejovicich a mozna odkaz ke sluzbam - 1 stranka cca -dany
+homepage - 1 stranka - dany
 vyhledavani - dany (kdyztak zkusi filip dat to nad menu)
+
+
+poznamky od filipa pro dany:
+-v css jsem udelal trochu hokej, protoze jsem tam pridal nove prvky, asi to jeste nejak upravim to css.
+-vetsinu asi uz mame
+-ty veci co mam ja, tak se mi zvetsuji a zmensuji podle toho na jakem jsem zarizeni
+-v messengru mas napsano jake elemnty nam chybi jeste pouzit
+-prosim pouzij nekde ten GRID

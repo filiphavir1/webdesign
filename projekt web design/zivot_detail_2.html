@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stránka obce</title>
+  <meta name="description" content="Web fiktivní obce">
+  <meta name="author" content="Filip Havíř a Daniela Kyndlová">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="styly.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7d04946dce.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+
+    <nav>
+      <a href="index.html"><img src="logo-obce.jpeg" alt="LOGO"></a>
+
+      <section class="navbar" id="navbar">
+        <div class="ico-menu">
+          <i class="fa fa-solid fa-bars" onclick="showMenu()"></i> <!-- burger menu  -->
+        </div>
+
+        <div class="search-box">
+          <form>
+            <input type="text" placeholder="Hledaný výraz">
+            <button class="search-btn">
+              <i class="fa-solid fa-magnifying-glass search-ico"></i>
+            </button>
+          </form>
+        </div>
+
+        <ul id="menu">
+          <div class="ico-close">
+            <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+          </div>
+          <li><a href="">Obec</a></li>
+          <li><a href="">Úřad</a></li>
+          <li><a href="">Život v obci</a></li>
+          <li><a href="kdo_jsme.html">Kdo jsme</a></li>
+          <li><a href="kontakty.html">Kontakty</a></li>
+        </ul>
+      </section>
+    </nav>
+  </header>
+
+  <main>
+
+    <article>
+      <header>
+        <h1>Jak nám hořelo za zády</h1>
+        <p>Autor Tereza Kořínková</p>
+      </header>
+      <section>
+        <h2>Prvotní pocity</h2>
+        <p>
+          Praesent id massa a ex faucibus sodales id quis tortor. Aenean ultrices ante eu mi bibendum, ut sagittis odio aliquet. Maecenas vulputate efficitur tempus. 
+          Pellentesque euismod nunc velit, in consequat tellus scelerisque vitae. Aliquam vel fringilla lectus. Cras accumsan ullamcorper odio, nec lacinia mi. Ut id varius nisi, 
+          eleifend aliquam mauris. Phasellus fermentum eros sem, non consectetur quam fringilla et. Etiam fermentum tempor vulputate. Duis eu felis in turpis mattis molestie. 
+          Donec luctus dapibus arcu. Nullam iaculis felis cursus, vehicula sapien vel, suscipit felis.
+        </p>
+      </section>
+      <section>
+        <h2>Sjezd hasičů</h2>
+        <p>
+          Praesent id massa a ex faucibus sodales id quis tortor. Aenean ultrices ante eu mi bibendum, ut sagittis odio aliquet. Maecenas vulputate efficitur tempus. 
+          Pellentesque euismod nunc velit, in consequat tellus scelerisque vitae. Aliquam vel fringilla lectus. Cras accumsan ullamcorper odio, nec lacinia mi. Ut id varius nisi, 
+          eleifend aliquam mauris. Phasellus fermentum eros sem, non consectetur quam fringilla et. Etiam fermentum tempor vulputate. Duis eu felis in turpis mattis molestie. 
+          Donec luctus dapibus arcu. Nullam iaculis felis cursus, vehicula sapien vel, suscipit felis.
+        </p>
+        <img src="https://picsum.photos/500/200" alt="Italian Trulli" style="max-width: 100%; height: auto;">
+        <p>
+          Praesent id massa a ex faucibus sodales id quis tortor. Aenean ultrices ante eu mi bibendum, ut sagittis odio aliquet. Maecenas vulputate efficitur tempus. 
+          Pellentesque euismod nunc velit, in consequat tellus scelerisque vitae. Aliquam vel fringilla lectus. Cras accumsan ullamcorper odio, nec lacinia mi. Ut id varius nisi, 
+          eleifend aliquam mauris. Phasellus fermentum eros sem, non consectetur quam fringilla et. Etiam fermentum tempor vulputate. Duis eu felis in turpis mattis molestie. 
+          Donec luctus dapibus arcu. Nullam iaculis felis cursus, vehicula sapien vel, suscipit felis.
+        </p>
+        <img src="https://picsum.photos/500/200" alt="Italian Trulli" style="max-width: 100%; height: auto;">
+      </section>
+      <section>
+        <h2>Pomoc vesničanů</h2>
+        <p>
+          Praesent id massa a ex faucibus sodales id quis tortor. Aenean ultrices ante eu mi bibendum, ut sagittis odio aliquet. Maecenas vulputate efficitur tempus. 
+          Pellentesque euismod nunc velit, in consequat tellus scelerisque vitae. Aliquam vel fringilla lectus. Cras accumsan ullamcorper odio, nec lacinia mi. Ut id varius nisi, 
+          eleifend aliquam mauris. Phasellus fermentum eros sem, non consectetur quam fringilla et. 
+          <aside>
+            <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+          </aside>
+          Etiam fermentum tempor vulputate. Duis eu felis in turpis mattis molestie. 
+          Donec luctus dapibus arcu. Nullam iaculis felis cursus, vehicula sapien vel, suscipit felis.
+        </p>
+      </section>
+    </article>
+  </main>
+
+    <div class="footer-info">
+      <div class="col-1">
+        <article>
+          <h3>Adresa úřadu</h3>
+          <p>Dlouhé náměstí 99</p>
+          <p>555 55 Praha-Západ</p>
+        </article>
+      </div>
+      <div class="col-2">
+        <article>
+          <h3> Kontaktní údaje</h3>
+          <p>Tel.: 546 888 555</p>
+          <p>Email: obec@fiktivni.cz</p>
+          <p>IČ: 00223344</p>
+          <p>Datová schránka: dap45xi</p>
+        </article>
+      </div>
+      <div class="col-3">
+        <article>
+          <h3>Úřední hodiny</h3>
+          <p>Pondělí  8:00 – 12:00 a 13:00 – 17:00</p>
+          <p>Středa   8:00 – 12:00 a 13:00 – 17:00</p>
+        </article>
+      </div>
+    </div>
+
+    <footer>
+      <p>Zpracováno v rámci studentského projektu předmětu Web design.</p>
+    </footer>
+
+    <!-- <div class="footer-txt">
+      <p>Zpracováno v rámci studentského projektu předmětu Web design.</p>
+    </div> -->
+
+
+<!-- JavaScript na zobrazení/skrytí menu -->
+  <script>
+    var navbar = document.getElementById("menu");
+    function showMenu(){
+      navbar.style.left = "0";
+    }
+    function hideMenu(){
+      navbar.style.left = "-200px";
+    }
+
+
+  </script>
+</body>
+</html>
