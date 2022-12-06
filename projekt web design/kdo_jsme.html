@@ -14,47 +14,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/7d04946dce.js" crossorigin="anonymous"></script>
 
-  <style>
-   * {
-  box-sizing: border-box;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: center;
-}
-
-.flex-item {
-  padding: 10px;
-  flex: 50%;
-  max-height: 500px;
-  max-width: 300px;
-}
-
-/* Responsive layout - makes a one column-layout instead of two-column layout */
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-  padding: 2px 16px;
-}
-    </style>
-</head>
-
 <body>
   <header>
 
@@ -82,7 +41,7 @@
           <li><a href="index.html">Obec</a></li>
           <li><a href="urad.html">Úřad</a></li>
           <li><a href="zivot.html">Život v obci</a></li>
-          <li><a href="kdo_jsme.html">Kdo jsme</a></li>
+          <li><a href="kdo_jsme.html">Služby</a></li>
           <li><a href="kontakty.html">Kontakty</a></li>
         </ul>
       </section>
@@ -90,67 +49,88 @@
   </header>
 
   <main>
-    <h1>Kdo jsme</h1>
-
-    <div class="flex-container">
-      <div class="flex-item">
-        <div class="card">
-          <img src="img_avatar.png" alt="Avatar" style="width:100%">
-          <div class="container">
-            <h4><b>Lucie Bílá</b></h4> 
-            <p>Místostarostka</p> 
-          </div>
-        </div>
+    <section class="services-page">
+      <div class="policie">
+        <article>
+          <h2>Obecní policie</h2>
+          <p><strong>Tel.:</strong> 546 888 555</p>
+          <p><strong>Sídlo:</strong> U Náměstí 32, 686 22 Avalon</p>
+          <p><strong>Zodpovědná osoba:</strong> Václav Wohland</p>
+        </article>
       </div>
-      <div class="flex-item">
-        <div class="card">
-          <img src="img_avatar.png" alt="Avatar" style="width:100%">
-          <div class="container">
-            <h4><b>Tereza Kořínková</b></h4> 
-            <p>Starostka</p> 
-          </div>
-        </div>
+      <div class="hasici">
+        <article>
+          <h2>Hasiči</h2>
+          <p><strong>Tel.:</strong> 546 888 555</p>
+          <p><strong>Sídlo:</strong> U Náměstí 45, 686 22 Avalon</p>
+          <p><strong>Zodpovědná osoba:</strong> Lukáš Badida</p>
+        </article>
       </div>
-      <div class="flex-item">
-        <div class="card">
-          <img src="img_avatar.png" alt="Avatar" style="width:100%">
-          <div class="container">
-            <h4><b>Filip Havíř</b></h4> 
-            <p>Účetní</p> 
-          </div>
-        </div>
+      <div class="zdravi">
+        <article>
+          <h2>Zdravotní služby</h2>
+          <p><strong>Tel.:</strong> 546 888 555</p>
+          <p><strong>Sídlo:</strong> Koudelkova 10, 686 22 Avalon</p>
+          <p><strong>Zodpovědná osoba:</strong> Weixuan Lukáš</p>
+        </article>
       </div>
-    </div>
-    <div class="flex-container">
-      <div class="flex-item">
-        <div class="card">
-          <img src="img_avatar.png" alt="Avatar" style="width:100%">
-          <div class="container">
-            <h4><b>Dany Kindlová</b></h4> 
-            <p>Manažer zábavy</p> 
-          </div>
-        </div>
+      <div class="tech-sluzby">
+        <article>
+          <h2>Technické služby</h2>
+          <p><strong>Tel.:</strong> 546 888 555</p>
+          <p><strong>Sídlo:</strong> Koudelkova 07, 686 22 Avalon</p>
+          <p><strong>Zodpovědná osoba:</strong> Varvara Křinecká</p>
+        </article>
       </div>
-      <div class="flex-item">
-        <div class="card">
-          <img src="img_avatar.png" alt="Avatar" style="width:100%">
-          <div class="container">
-            <h4><b>Dana Tichá</b></h4> 
-            <p>Správce budov</p> 
-          </div>
-        </div>
+      <div class="zakl-skola">
+        <article>
+          <h2>Základní škola</h2>
+          <p><strong>Tel.:</strong> 546 888 555</p>
+          <p><strong>Sídlo:</strong> Veselá 22, 686 22 Avalon</p>
+          <p><strong>Zodpovědná osoba:</strong> Marie Laštovičková</p>
+        </article>
       </div>
-      <div class="flex-item">
-        <div class="card">
-          <img src="img_avatar.png" alt="Avatar" style="width:100%">
-          <div class="container">
-            <h4><b>Jakub Nápravník</b></h4> 
-            <p>Umělec</p> 
-          </div>
-        </div>
+      <div class="mat-skola">
+        <article>
+          <h2>Mateřská škola</h2>
+          <p><strong>Tel.:</strong> 546 888 555</p>
+          <p><strong>Sídlo:</strong> Veselá 21, 686 22 Avalon</p>
+          <p><strong>Zodpovědná osoba:</strong> Magda Hezoučká</p>
+        </article>
       </div>
-    </div>
-
+      <div class="spol-dum">
+        <article>
+          <h2>Spolkový dům</h2>
+          <p><strong>Tel.:</strong> 546 888 555</p>
+          <p><strong>Sídlo:</strong> U Hřiště 11, 686 22 Avalon</p>
+          <p><strong>Zodpovědná osoba:</strong> Tomáš Knap</p>
+        </article>
+      </div>
+      <div class="sber-dvur">
+        <article>
+          <h2>Sběrný dvůr</h2>
+          <p><strong>Tel.:</strong> 546 888 555</p>
+          <p><strong>Sídlo:</strong> U Stavitelů 65, 686 22 Avalon</p>
+          <p><strong>Zodpovědná osoba:</strong> Ladislav Sekanina</p>
+        </article>
+      </div>
+      <div class="bot-ustav">
+        <article>
+          <h2>Botanický ústav</h2>
+          <p><strong>Tel.:</strong> 546 888 555</p>
+          <p><strong>Sídlo:</strong> Tulipánová 10, 686 22 Avalon</p>
+          <p><strong>Zodpovědná osoba:</strong> Pavel Maňous</p>
+        </article>
+      </div>
+      <div class="zam-sprava">
+        <article>
+          <h2>Zámecká správa</h2>
+          <p><strong>Tel.:</strong> 546 888 555</p>
+          <p><strong>Sídlo:</strong> Zámecká 19, 686 22 Avalon</p>
+          <p><strong>Zodpovědná osoba:</strong> Lukáš Dytka</p>
+        </article>
+      </div>
+    </section>
   </main>
 
     <div class="footer-info">

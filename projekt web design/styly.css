@@ -151,6 +151,28 @@ main{
 }
 /* stránka Kontakty */
 
+/* stránka Služby */
+.services-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px 80px;
+  margin-bottom: 80px;
+}
+.services-page div {
+  border: 1px solid #888888;
+  box-shadow: 5px 10px 8px #888888;
+}
+.services-page article {
+  padding: 10px;
+}
+.services-page p{
+  font-weight: 300;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+/* stránka Služby */
+
 /* footer */
 .footer-info{
   padding: 70px 5%;
@@ -283,14 +305,24 @@ footer p{
     }
     /* stránka Kontakty */
 
-    /* footer */
-.footer-info div{
-    width: 100%;
-    margin-bottom: 40px;
+    /* stránka Služby */
+   .services-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;
+    margin-bottom: 80px;
+   }
+   /* stránka Služby */
+
+   /* footer */
+   .footer-info div {
+        width: 100%;
+        margin-bottom: 40px;
     }
-footer p{
-    font-size: 12px;
-    padding: 5%;
+    footer p {
+        font-size: 12px;
+        padding: 5%;
     }
     /* footer */
 }
@@ -331,7 +363,6 @@ footer p{
   }
 }
 /* media pro contact-page Grid */
-
 /* media pro contact-page Mapa */
 @media(max-width: 300px) {
   .contact-page iframe {
@@ -340,6 +371,22 @@ footer p{
 }
 /* media pro contact-page Mapa */
 
+/* media pro services-page Flex */
+@media(max-width: 900px) {
+  .services-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 30px;
+    margin-bottom: 80px;
+  }
+}
+@media(max-width: 300px) {
+  .contact-page iframe {
+    display: none;
+  }
+}
+/* media pro services-page Flex */
 
 
 
