@@ -96,6 +96,12 @@ main{
     align-items: center;
     justify-content: center;
 }
+.life-page h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
 .life-page img {
     width: 400px;
     padding-bottom: 5px;
