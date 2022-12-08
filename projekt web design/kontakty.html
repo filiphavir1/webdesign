@@ -13,6 +13,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/7d04946dce.js" crossorigin="anonymous"></script>
+  <style>
+    #kontakty::after{
+      width: 100%;
+    }
+  </style>
 </head>
 
 <body>
@@ -39,10 +44,10 @@
           <div class="ico-close">
             <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
           </div>
-          <li><a href="index.html">Obec</a></li>
-          <li><a href="zivot.html">Život v obci</a></li>
-          <li><a href="kdo_jsme.html">Kdo jsme</a></li>
-          <li><a href="kontakty.html">Kontakty</a></li>
+          <li id="index"><a href="index.html">Obec</a></li>
+          <li id="zivot"><a href="zivot.html">Život v obci</a></li>
+          <li id="sluzby"><a href="sluzby.html">Služby</a></li>
+          <li id="kontakty"><a href="kontakty.html">Kontakty</a></li>
         </ul>
       </section>
     </nav>
