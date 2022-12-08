@@ -90,6 +90,75 @@ main{
   padding: 0px 5%;
 }
 
+/* stránka Život v obci */
+.life-page {
+    margin: 0 200px 0 200px;
+    align-items: center;
+    justify-content: center;
+}
+.life-page img {
+    width: 400px;
+    padding-bottom: 5px;
+}
+.life-page div {
+    display: block;
+}
+.life-page article {
+    display: block;
+    padding-bottom: 35px;
+}
+.life-page aside {
+    color: #29627e;
+    font-size: 14px;
+}
+.life-page h2, aside, p {
+    margin-bottom: 3px;
+}
+.life-page a {
+}
+/* stránka Život v obci */
+
+/* stránka Život v obci detail */
+.life-page-detail {
+    margin: 0 200px 0 200px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+.life-page-detail header img {
+    width: 800px;
+    padding-bottom: 5px;
+}
+.life-page-detail header h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.life-page-detail h2 {
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    font-weight: 650;
+}
+.life-page-detail section aside, header aside {
+    color: #29627e;
+    font-size: 14px;
+    font-style: italic;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.life-page-detail section aside {
+    padding-bottom: 50px;
+}
+.life-page-detail p {
+    padding-bottom: 40px;
+}
+.life-page-detail img {
+    width: 800px;
+    max-width: 100%; 
+    height: auto;
+    padding-bottom: 40px;
+}
+/* stránka Život v obci detail */
+
 /* stránka Kontakty */
 .contact-page img{
   max-width: 185px;
@@ -231,8 +300,8 @@ footer p{
         transition: 0.5s;
     }
     .navbar ul li{
-        text-align: left;
-        margin-left: 10px;
+        text-align: right;
+        margin-right: 12px;
         display: block;
     }
 .   navbar ul li a{
@@ -264,6 +333,24 @@ footer p{
         margin: 15px 10px 10px 5px;
     }
     /* navigační menu */
+
+    /* stránka Život v obci */
+    .life-page {
+        margin: 0 100px 0 100px;
+    }
+    .life-page img {
+        max-width: 100%;
+    }
+     /* stránka Život v obci */
+
+     /* stránka Život v obci detail */
+    .life-page-detail {
+        margin: 0 100px 0 100px;
+    }
+    .life-page-detail img {
+        max-width: 100%;
+    }
+    /* stránka Život v obci detail */
 
     /* stránka Kontakty */
     .contact-page {
@@ -361,8 +448,21 @@ footer p{
   .contact-page  .mapa {
     padding: 0;
   }
+
+  /* stránka Život v obci */
+  .life-page {
+    margin: 0 80px 0 80px;
+  }
+  /* stránka Život v obci */
+
+  /* stránka Život v obci detail */
+  .life-page-detail {
+    margin: 0 80px 0 80px;
+  }
+  /* stránka Život v obci detail */
 }
 /* media pro contact-page Grid */
+
 /* media pro contact-page Mapa */
 @media(max-width: 300px) {
   .contact-page iframe {
@@ -370,6 +470,27 @@ footer p{
   }
 }
 /* media pro contact-page Mapa */
+
+@media(max-width: 400px) {
+  
+    /* stránka Život v obci */
+    .life-page {
+        margin: 0 5px 0 5px;
+    }
+    .life-page img {
+        max-width: 100%;
+    }
+    /* stránka Život v obci */
+
+    /* stránka Život v obci detail */
+    .life-page-detail {
+        margin: 0 5px 0 5px;
+    }
+    .life-page-detail img {
+        max-width: 100%;
+    }
+    /* stránka Život v obci detail */
+}
 
 /* media pro services-page Flex */
 @media(max-width: 900px) {
@@ -379,11 +500,6 @@ footer p{
     justify-content: center;
     gap: 40px 30px;
     margin-bottom: 80px;
-  }
-}
-@media(max-width: 300px) {
-  .contact-page iframe {
-    display: none;
   }
 }
 /* media pro services-page Flex */
@@ -424,7 +540,7 @@ footer p{
 
 
 
-aside {
+/* aside {
   width: 40%;
   padding-left: .5rem;
   margin-left: .5rem;
@@ -437,6 +553,7 @@ aside {
 aside > p {
   margin: .5rem;
 }
+*/
 
 /* homepage strana */
 .home-page {
